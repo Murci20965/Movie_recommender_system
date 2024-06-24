@@ -65,7 +65,7 @@ The system employs collaborative filtering, specifically Singular Value Decompos
 
 ### Recommender System Using SVD
 #### Approach
-In this project, we developed a movie recommendation system using the MovieLens dataset enriched with additional data from IMDB. Our primary approach leveraged collaborative filtering using Singular Value Decomposition (SVD) to predict user ratings and recommend movies. Below, we detail our approach and the mathematical foundation of SVD used in the project.
+In this project, I developed a movie recommendation system using the MovieLens dataset enriched with additional data from IMDB. My primary approach leveraged collaborative filtering using Singular Value Decomposition (SVD) to predict user ratings and recommend movies. Below, I detail my approach and the mathematical foundation of SVD used in the project.
 
 **Data Processing**
 
@@ -115,16 +115,14 @@ Where:
 
   **4. Evaluation:**
 
-  - Evaluated the model using metrics such as Root Mean Squared Error           (RMSE) on the test set.
-  - This helped assess the accuracy and effectiveness of the recommendation 
-    system.
+  - Evaluated the model using metrics such as Root Mean Squared Error (RMSE) on the test set.
+  - This helped assess the accuracy and effectiveness of the recommendation system.
     
 **Practical Implementation**
 
   **1. Libraries Used:**
   - Utilized Python libraries such as **'pandas'**, **'numpy'**, and **'scikit-learn'** for data processing and model building.
-  - The **'Surprise'** library was used for implementing the SVD algorithm.
-Algorithm Application.
+  - The **'Surprise'** library was used for implementing the SVD algorithm Application.
 
   **2. Algorithm Application:**
   - The training data was fed into the SVD algorithm to learn the user and item latent factors.
@@ -138,7 +136,7 @@ Algorithm Application.
 - Successfully implemented SVD to factorize the user-item interaction matrix.
 - Achieved a low RMSE score, indicating accurate rating predictions.
 - Developed a recommendation system that can efficiently handle large-scale data.
-- 
+
 By leveraging the power of SVD in collaborative filtering, I was able to create an effective movie recommendation system that provides personalized suggestions based on user preferences.
 
 ### Insights and Recommendations
