@@ -9,19 +9,20 @@ A recommender system is a specialized information filtering system designed to p
 
 Recommender systems power many of the internet products we use daily. Platforms like YouTube, Netflix, Amazon, and Pinterest rely heavily on these systems to sift through millions of items and provide personalized suggestions to their users. The effectiveness of recommender systems in improving user satisfaction and engagement is well-documented, making them essential tools for modern internet businesses.
 
-A recommender system is a complex and multifaceted concept that revolves around providing users with personalized suggestions. Various algorithms are employed to construct these systems, and the choice of algorithm largely depends on the nature of the available data. In this project, I implemented a collaborative filtering approach using Singular Value Decomposition (SVD) to develop A movie recommendation system.
+Types of recommender systems primarily in the Media and Entertainment industry:
 
-**Content-based Filtering**
-Content-based filtering recommends items based on the attributes of the items and a profile of the user’s preferences. For movies, this might include genres, actors, directors, and other features. The system learns what the user likes and suggests similar items.
+- Collaborative Recommender system
+- Content-based recommender system
+- Knowledge based recommender system
+- Hybrid recommender system
+- Demographic based recommender system
+- Utility based recommender system
+
+
+A recommender system is a complex and multifaceted concept that revolves around providing users with personalized suggestions. Various algorithms are employed to construct these systems, and the choice of algorithm largely depends on the nature of the available data. In this project, I implemented a collaborative filtering approach using Singular Value Decomposition (SVD) to develop A movie recommendation system.
 
 **Collaborative Filtering**
 Collaborative filtering makes recommendations based on the preferences of similar users. This can be done using user-based or item-based methods. User-based collaborative filtering finds users who are similar to the target user and recommends items they liked. Item-based collaborative filtering finds items similar to those the user has liked in the past.
-
-**Knowledge-based Recommender System**
-Knowledge-based recommenders suggest items based on explicit knowledge about how certain item features meet user needs and preferences. These systems do not rely on user ratings or behavior but on the knowledge about the items and the domain.
-
-**Hybrid Recommender**
-Hybrid recommender systems combine multiple recommendation techniques to improve the accuracy and robustness of the recommendations. For instance, they might merge content-based and collaborative filtering methods to leverage the strengths of both approaches.
 
 **Common Challenges**
 Recommender systems face several challenges during development and deployment:
