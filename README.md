@@ -80,7 +80,7 @@ Missing values were handled appropriately to ensure a clean dataset for analysis
 
 **3. Data Preparation:**
 
-- Split the dataset into training and test sets to evaluate the performance of our recommender system.
+- Split the dataset into training and test sets to evaluate the performance of the recommender system.
   
 **Collaborative Filtering with SVD**
 **Collaborative filtering** predicts user preferences by analyzing the preferences of many users. The underlying assumption is that if users have agreed in the past, they will likely agree in the future.
