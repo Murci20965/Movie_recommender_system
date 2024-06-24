@@ -5,7 +5,7 @@ This project aims to develop a robust movie recommendation system using collabor
 **Data Overview:**
 This dataset comprises millions of 5-star ratings provided by users of the MovieLens online movie recommendation service. The MovieLens dataset has been a staple for both industry and academic researchers to enhance the performance of recommendation systems based on explicit user feedback.
 
-In this project, we utilize a specially curated version of the MovieLens dataset, enriched with additional data and resampled to ensure fair evaluation. The GroupLens research group at the Department of Computer Science and Engineering, University of Minnesota, maintains this dataset. Additional movie metadata was legally sourced from IMDB.
+In this project, I utilize a specially curated version of the MovieLens dataset, enriched with additional data and resampled to ensure fair evaluation. The GroupLens research group at the Department of Computer Science and Engineering, University of Minnesota, maintains this dataset. Additional movie metadata was legally sourced from IMDB.
 
 **Supplied Files:**
 - **genome_scores.csv** - A score mapping the strength between movies and tag-related properties.
