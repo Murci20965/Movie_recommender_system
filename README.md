@@ -7,6 +7,28 @@ This dataset comprises millions of 5-star ratings provided by users of the Movie
 
 In this project, I utilize a specially curated version of the MovieLens dataset, enriched with additional data and resampled to ensure fair evaluation. The GroupLens research group at the Department of Computer Science and Engineering, University of Minnesota, maintains this dataset. Additional movie metadata was legally sourced from IMDB.
 
+### Recommender Systems Overview
+**Content-based Filtering**
+Content-based filtering recommends items based on the attributes of the items and a profile of the user’s preferences. For movies, this might include genres, actors, directors, and other features. The system learns what the user likes and suggests similar items.
+
+**Collaborative Filtering**
+Collaborative filtering makes recommendations based on the preferences of similar users. This can be done using user-based or item-based methods. User-based collaborative filtering finds users who are similar to the target user and recommends items they liked. Item-based collaborative filtering finds items similar to those the user has liked in the past.
+
+**Knowledge-based Recommender System**
+Knowledge-based recommenders suggest items based on explicit knowledge about how certain item features meet user needs and preferences. These systems do not rely on user ratings or behavior but on the knowledge about the items and the domain.
+
+**Hybrid Recommender**
+Hybrid recommender systems combine multiple recommendation techniques to improve the accuracy and robustness of the recommendations. For instance, they might merge content-based and collaborative filtering methods to leverage the strengths of both approaches.
+
+**Common Challenges**
+Recommender systems face several challenges during development and deployment:
+
+**Cold Start Problem:** Difficulty in making recommendations for new users or items with no historical data.
+**Scalability:** Handling large datasets efficiently to provide timely recommendations.
+**Sparsity:** Dealing with the vast majority of possible user-item interactions being unrated or unobserved.
+**Diversity:** Ensuring the recommendations do not become too homogeneous, limiting user exposure to different items.
+**Privacy:** Balancing the use of personal data to make recommendations while protecting user privacy.
+
 **Supplied Files:**
 - **genome_scores.csv** - A score mapping the strength between movies and tag-related properties.
 - **genome_tags.csv** - User-assigned tags for genome-related scores.
