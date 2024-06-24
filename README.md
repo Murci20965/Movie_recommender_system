@@ -5,7 +5,7 @@ This project aims to develop a robust movie recommendation system using collabor
 ### Recommender Systems Overview
 A recommender system is a specialized information filtering system designed to predict a user's preference or rating for an item. These systems are widely used across various domains such as movies, music, news, social tags, and general products. They generate personalized lists of recommendations through different methodologies. Two of the most prominent methods are collaborative filtering and content-based filtering.
 
-**ADD IMAGE HERE**
+![System Architecture]![](https://miro.medium.com/v2/resize:fit:1400/1*bjNz3O2BZC2N3Y7k36fZHg.png)
 
 Recommender systems power many of the internet products we use daily. Platforms like YouTube, Netflix, Amazon, and Pinterest rely heavily on these systems to sift through millions of items and provide personalized suggestions to their users. The effectiveness of recommender systems in improving user satisfaction and engagement is well-documented, making them essential tools for modern internet businesses.
 
