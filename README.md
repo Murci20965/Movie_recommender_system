@@ -12,10 +12,10 @@ This project aims to develop a movie recommendation system using collaborative f
 The system employs collaborative filtering, specifically Singular Value Decomposition (SVD), to analyze user-item interactions and predict movie ratings. It utilizes historical user data and movie features to generate accurate recommendations.
 
 ### Key Features
-User Profiles: Captures user preferences, ratings, and viewing history.
-Movie Database: Contains information about movies, including titles, genres, and ratings.
-Recommendation Engine: Uses SVD to generate personalized movie recommendations.
-Evaluation Metrics: Measures system performance using RMSE (Root Mean Squared Error) and Bayesian average ratings.
+1. User Profiles: Captures user preferences, ratings, and viewing history.
+2. Movie Database: Contains information about movies, including titles, genres, and ratings.
+3. Recommendation Engine: Uses SVD to generate personalized movie recommendations.
+4. Evaluation Metrics: Measures system performance using RMSE (Root Mean Squared Error) and Bayesian average ratings.
 
 ### Insights and Recommendations
 - Personalized Experience: Users receive movie recommendations tailored to their tastes and preferences, leading to higher user satisfaction and engagement.
