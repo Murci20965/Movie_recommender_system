@@ -2,11 +2,6 @@
 ### Project Overview
 This project aims to develop a robust movie recommendation system using collaborative filtering techniques, specifically Singular Value Decomposition (SVD), on a dataset of movie ratings. The system leverages user preferences and behavior to provide personalized movie recommendations, enhancing the overall user experience and engagement.
 
-**Data Overview:**
-This dataset comprises millions of 5-star ratings provided by users of the MovieLens online movie recommendation service. The MovieLens dataset has been a staple for both industry and academic researchers to enhance the performance of recommendation systems based on explicit user feedback.
-
-In this project, I utilize a specially curated version of the MovieLens dataset, enriched with additional data and resampled to ensure fair evaluation. The GroupLens research group at the Department of Computer Science and Engineering, University of Minnesota, maintains this dataset. Additional movie metadata was legally sourced from IMDB.
-
 ### Recommender Systems Overview
 **Content-based Filtering**
 Content-based filtering recommends items based on the attributes of the items and a profile of the user’s preferences. For movies, this might include genres, actors, directors, and other features. The system learns what the user likes and suggests similar items.
@@ -28,6 +23,11 @@ Recommender systems face several challenges during development and deployment:
 **Sparsity:** Dealing with the vast majority of possible user-item interactions being unrated or unobserved.
 **Diversity:** Ensuring the recommendations do not become too homogeneous, limiting user exposure to different items.
 **Privacy:** Balancing the use of personal data to make recommendations while protecting user privacy.
+
+### Data Overview:
+This dataset comprises millions of 5-star ratings provided by users of the MovieLens online movie recommendation service. The MovieLens dataset has been a staple for both industry and academic researchers to enhance the performance of recommendation systems based on explicit user feedback.
+
+In this project, I utilize a specially curated version of the MovieLens dataset, enriched with additional data and resampled to ensure fair evaluation. The GroupLens research group at the Department of Computer Science and Engineering, University of Minnesota, maintains this dataset. Additional movie metadata was legally sourced from IMDB.
 
 **Supplied Files:**
 - **genome_scores.csv** - A score mapping the strength between movies and tag-related properties.
