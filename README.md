@@ -68,6 +68,7 @@ The system employs collaborative filtering, specifically Singular Value Decompos
 In this project, we developed a movie recommendation system using the MovieLens dataset enriched with additional data from IMDB. Our primary approach leveraged collaborative filtering using Singular Value Decomposition (SVD) to predict user ratings and recommend movies. Below, we detail our approach and the mathematical foundation of SVD used in the project.
 
 **Data Processing**
+
 **1. Data Cleaning:**
 
 - Began by loading the datasets, which included ratings, movieIds, userIds, tiltes, and genres.
