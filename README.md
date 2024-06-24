@@ -18,6 +18,10 @@ Types of recommender systems primarily in the Media and Entertainment industry:
 - Demographic based recommender system
 - Utility based recommender system
 
+**Applications**
+- **E-commerce:** Product recommendations (e.g., Amazon, Takealot)
+- **Streaming Services:** Movie or music recommendations (e.g., Netflix, Spotify)
+- **Social Media:** Friend or content recommendations (e.g., Facebook, Twitter, Instagram)
 
 A recommender system is a complex and multifaceted concept that revolves around providing users with personalized suggestions. Various algorithms are employed to construct these systems, and the choice of algorithm largely depends on the nature of the available data. In this project, I implemented a collaborative filtering approach using Singular Value Decomposition (SVD) to develop A movie recommendation system.
 
