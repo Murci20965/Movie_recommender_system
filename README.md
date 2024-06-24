@@ -63,6 +63,50 @@ The system employs collaborative filtering, specifically Singular Value Decompos
 3. **Recommendation Engine:** Uses SVD to generate personalized movie recommendations.
 4. **Evaluation Metrics:** Measures system performance using RMSE (Root Mean Squared Error) and Bayesian average ratings.
 
+### Recommender System Using SVD
+#### Approach
+In this project, we developed a movie recommendation system using the MovieLens dataset enriched with additional data from IMDB. Our primary approach leveraged collaborative filtering using Singular Value Decomposition (SVD) to predict user ratings and recommend movies. Below, we detail our approach and the mathematical foundation of SVD used in the project.
+
+Data Processing
+Data Cleaning:
+
+We began by loading the datasets, which included ratings, movie metadata, and user-generated tags.
+Missing values were handled appropriately to ensure a clean dataset for analysis.
+Data Integration:
+
+We merged the MovieLens ratings with the additional IMDB metadata to enrich our dataset.
+This step allowed us to incorporate more features and improve the accuracy of our recommendations.
+Data Preparation:
+
+We split the dataset into training and test sets to evaluate the performance of our recommender system.
+Collaborative Filtering with SVD
+Collaborative filtering predicts user preferences by analyzing the preferences of many users. The underlying assumption is that if users have agreed in the past, they will likely agree in the future.
+
+Singular Value Decomposition (SVD) is a powerful matrix factorization technique used in collaborative filtering to decompose the user-item interaction matrix into lower-dimensional matrices.
+
+**Evaluation:**
+
+We evaluated our model using metrics such as Root Mean Squared Error (RMSE) on the test set.
+This helped us assess the accuracy and effectiveness of our recommendation system.
+Practical Implementation
+Libraries Used:
+
+We utilized Python libraries such as pandas, numpy, and scikit-learn for data processing and model building.
+The Surprise library was used for implementing the SVD algorithm.
+Algorithm Application:
+
+The training data was fed into the SVD algorithm to learn the user and item latent factors.
+We tuned the hyperparameters (such as the number of factors, learning rate, and regularization) to optimize the model's performance.
+Generating Recommendations:
+
+Once trained, the model was used to predict ratings for unseen user-item pairs.
+Based on these predictions, we generated a list of top recommended movies for each user.
+Key Achievements
+Successfully implemented SVD to factorize the user-item interaction matrix.
+Achieved a low RMSE score, indicating accurate rating predictions.
+Developed a recommendation system that can efficiently handle large-scale data.
+By leveraging the power of SVD in collaborative filtering, we created an effective movie recommendation system that provides personalized suggestions based on user preferences.
+
 ### Insights and Recommendations
 - **Personalized Experience:** Users receive movie recommendations tailored to their tastes and preferences, leading to higher user satisfaction and engagement.
 - **Increased User Interaction:** The system encourages users to explore new movies and genres, boosting user interaction and platform usage.
