@@ -1,6 +1,23 @@
 # Movie Recommendation System On MovieLens Datasets
 ### Project Overview
-This project aims to develop a movie recommendation system using collaborative filtering techniques. The system analyzes user preferences and behavior to provide personalized movie recommendations, enhancing user experience and engagement.
+This project aims to develop a robust movie recommendation system using collaborative filtering techniques, specifically Singular Value Decomposition (SVD), on a dataset of movie ratings. The system leverages user preferences and behavior to provide personalized movie recommendations, enhancing the overall user experience and engagement.
+
+This dataset consists of several million 5-star ratings obtained from users of the online MovieLens movie recommendation service. The MovieLens dataset has long been used by industry and academic researchers to improve the performance of explicitly-based recommender systems
+
+**Data Overview:**
+This dataset comprises millions of 5-star ratings provided by users of the MovieLens online movie recommendation service. The MovieLens dataset has been a staple for both industry and academic researchers to enhance the performance of recommendation systems based on explicit user feedback.
+
+In this project, we utilize a specially curated version of the MovieLens dataset, enriched with additional data and resampled to ensure fair evaluation. The GroupLens research group at the Department of Computer Science and Engineering, University of Minnesota, maintains this dataset. Additional movie metadata was legally sourced from IMDB.
+
+**Supplied Files:**
+- **genome_scores.csv** - A score mapping the strength between movies and tag-related properties.
+- **genome_tags.csv** - User-assigned tags for genome-related scores.
+- **imdb_data.csv** - Additional movie metadata scraped from IMDB using the links.csv file.
+- **links.csv** - Provides a mapping between a MovieLens ID and associated IMDB and TMDB IDs.
+- **sample_submission.csv** - Sample of the submission format for the hackathon.
+- **tags.csv** - User-assigned tags for the movies within the dataset.
+- **test.csv** - The test split of the dataset containing user and movie IDs with no rating data.
+- **train.csv** - The training split of the dataset containing user and movie IDs with associated rating data.
 
 ### Objectives
 1. **Personalized Recommendations:** Provide users with movie suggestions based on their historical preferences and behavior.
