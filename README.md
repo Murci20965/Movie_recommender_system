@@ -28,6 +28,9 @@ A recommender system is a complex and multifaceted concept that revolves around 
 **Collaborative Filtering**
 Collaborative filtering makes recommendations based on the preferences of similar users. This can be done using user-based or item-based methods. User-based collaborative filtering finds users who are similar to the target user and recommends items they liked. Item-based collaborative filtering finds items similar to those the user has liked in the past.
 
+**Example:**
+If user A and user B both liked similar movies, and user B liked a new movie that user A hasn't seen yet, the system will recommend that new movie to user A.
+
 **Common Challenges**
 Recommender systems face several challenges during development and deployment:
 
