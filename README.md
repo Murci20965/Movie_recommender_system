@@ -2,8 +2,6 @@
 ### Project Overview
 This project aims to develop a robust movie recommendation system using collaborative filtering techniques, specifically Singular Value Decomposition (SVD), on a dataset of movie ratings. The system leverages user preferences and behavior to provide personalized movie recommendations, enhancing the overall user experience and engagement.
 
-This dataset consists of several million 5-star ratings obtained from users of the online MovieLens movie recommendation service. The MovieLens dataset has long been used by industry and academic researchers to improve the performance of explicitly-based recommender systems
-
 **Data Overview:**
 This dataset comprises millions of 5-star ratings provided by users of the MovieLens online movie recommendation service. The MovieLens dataset has been a staple for both industry and academic researchers to enhance the performance of recommendation systems based on explicit user feedback.
 
