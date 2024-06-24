@@ -18,11 +18,11 @@ Hybrid recommender systems combine multiple recommendation techniques to improve
 **Common Challenges**
 Recommender systems face several challenges during development and deployment:
 
-**Cold Start Problem:** Difficulty in making recommendations for new users or items with no historical data.
-**Scalability:** Handling large datasets efficiently to provide timely recommendations.
-**Sparsity:** Dealing with the vast majority of possible user-item interactions being unrated or unobserved.
-**Diversity:** Ensuring the recommendations do not become too homogeneous, limiting user exposure to different items.
-**Privacy:** Balancing the use of personal data to make recommendations while protecting user privacy.
+- **Cold Start Problem:** Difficulty in making recommendations for new users or items with no historical data.
+- **Scalability:** Handling large datasets efficiently to provide timely recommendations.
+- **Sparsity:** Dealing with the vast majority of possible user-item interactions being unrated or unobserved.
+- **Diversity:** Ensuring the recommendations do not become too homogeneous, limiting user exposure to different items.
+- **Privacy:** Balancing the use of personal data to make recommendations while protecting user privacy.
 
 ### Data Overview:
 This dataset comprises millions of 5-star ratings provided by users of the MovieLens online movie recommendation service. The MovieLens dataset has been a staple for both industry and academic researchers to enhance the performance of recommendation systems based on explicit user feedback.
