@@ -102,15 +102,15 @@ Where:
 **Steps to implememt SVD**
 
   **1. Matrix Factorization:**
-  -
+  
   -
 
   **2. Dimensionality Reduction:**
-  -
+  
   -
 
   **3. Prediction:**
-  -
+  
   -
 
   **4. Evaluation:**
